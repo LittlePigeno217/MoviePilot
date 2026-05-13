@@ -1,0 +1,10 @@
+{
+  "name": "moviepilot-dev-runner",
+  "private": true,
+  "scripts": {
+    "dev": "node scripts/start-dev.mjs all",
+    "dev:all": "node scripts/start-dev.mjs all",
+    "dev:backend": "node scripts/start-dev.mjs backend",
+    "dev:frontend": "node scripts/start-dev.mjs frontend"
+  }
+}
